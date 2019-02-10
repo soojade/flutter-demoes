@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demoes/frosted_glass/frosted_glass.dart'; // 毛玻璃特效
+import 'package:flutter_demoes/keep_alive_tab/keep_alive_tab.dart'; // 保持状态的tab
+// import 'package:flutter_demoes/frosted_glass/frosted_glass.dart'; // 毛玻璃特效
 // import 'package:flutter_demoes/custom_route_animation/pages.dart'; // 自定义路由动画
 //import 'package:flutter_demoes/irregular_bottom_appBar/irregular_bottom_appBar.dart'; // 不规则导航
 // import 'package:flutter_demoes/bottom_navigation_bar/bottom_navigation.dart'; // 底部导航栏
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       // home: BottomNavigation(), // 底部导航栏
       // home: IrregularBottomAppBar(), // 不规则底部工具栏
       // home: Page1(), 自定义路由动画
-      home: FrostedGlass(), // 毛玻璃特效
+      // home: FrostedGlass(), // 毛玻璃特效
+      home: KeepAliveTab(), // 保持状态的tab
     );
   }
 }
