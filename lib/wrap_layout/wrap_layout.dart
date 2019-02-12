@@ -43,9 +43,11 @@ class _WrapLayoutState extends State<WrapLayout> {
   Widget addImg() {
     return Padding(
       padding: const EdgeInsets.all(10.0),
-      // 额外添加的透明效果，子组件会继承父容器的透明度，子组件透明度设置1页没有用
+      // 额外添加的透明效果，子组件会继承父容器的透明度，
+      // 假如父容器透明，子组件透明度设置1.0也还是会透明，
+      // 子组件的透明度只有比父容器的透明度小时，才有效。
       child: Opacity(
-        opacity: 0.3,
+        opacity: 0.5,
         child: Container(
           width: 80.0,
           height: 80.0,
