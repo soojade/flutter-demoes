@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demoes/search_bar/search_bar.dart'; // 搜索栏
+import 'package:flutter_demoes/wrap_layout/wrap_layout.dart'; // wrap 流式布局
+// import 'package:flutter_demoes/search_bar/search_bar.dart';  // 搜索栏
 // import 'package:flutter_demoes/keep_alive_tab/keep_alive_tab.dart'; // 保持状态的tab
 // import 'package:flutter_demoes/frosted_glass/frosted_glass.dart'; // 毛玻璃特效
 // import 'package:flutter_demoes/custom_route_animation/pages.dart'; // 自定义路由动画
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
       // home: Page1(), 自定义路由动画
       // home: FrostedGlass(), // 毛玻璃特效
       // home: KeepAliveTab(), // 保持状态的tab
-      home: SearchBar(), // 搜索栏
+      // home: SearchBar(), // 搜索栏
+      home: WrapLayout(), // wrap 流式布局
     );
   }
 }
