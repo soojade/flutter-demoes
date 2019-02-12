@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demoes/collapse_panel/collapse_panel.dart'; // 可折叠的磁贴
+import 'package:flutter_demoes/accordion_list/accordion_list.dart'; // 手风琴列表
+// import 'package:flutter_demoes/collapse_panel/collapse_panel.dart'; // 可折叠的磁贴
 //import 'package:flutter_demoes/wrap_layout/wrap_layout.dart'; // wrap 流式布局
 // import 'package:flutter_demoes/search_bar/search_bar.dart';  // 搜索栏
 // import 'package:flutter_demoes/keep_alive_tab/keep_alive_tab.dart'; // 保持状态的tab
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
       // home: KeepAliveTab(), // 保持状态的tab
       // home: SearchBar(), // 搜索栏
       // home: WrapLayout(), // wrap 流式布局
-      home: CollapsePanel(), // 可折叠的磁贴
+      // home: CollapsePanel(), // 可折叠的磁贴
+      home: AccordionList(), // 手风琴列表
     );
   }
 }
