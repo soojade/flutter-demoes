@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demoes/light_tip/light_tip.dart'; // 轻量级的小提示
+import 'package:flutter_demoes/drag_box/drop_box.dart'; // 拖拽
+// import 'package:flutter_demoes/light_tip/light_tip.dart'; // 轻量级的小提示
 // import 'package:flutter_demoes/cupertino_right_slip_back/right_slip_back.dart'; // 右滑返回
 // import 'package:flutter_demoes/splash_screen/splash_screen.dart'; // 闪屏动画
 // import 'package:flutter_demoes/bezier_clipper/bezier_clipper.dart'; // 贝塞尔曲线剪切效果
@@ -35,7 +36,8 @@ class MyApp extends StatelessWidget {
       // home: BezierClipper(), // 贝塞尔曲线剪切效果
       // home: SplashScreen(), // 闪屏动画
       // home: RightSlipBack(), // 右滑返回
-      home: LightTip(), // 轻量级的小提示
+      // home: LightTip(), // 轻量级的小提示
+      home: DropBox(), // 拖拽
     );
   }
 }
