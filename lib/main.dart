@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demoes/cupertino_right_slip_back/right_slip_back.dart'; // 右滑返回
+import 'package:flutter_demoes/light_tip/light_tip.dart'; // 轻量级的小提示
+// import 'package:flutter_demoes/cupertino_right_slip_back/right_slip_back.dart'; // 右滑返回
 // import 'package:flutter_demoes/splash_screen/splash_screen.dart'; // 闪屏动画
 // import 'package:flutter_demoes/bezier_clipper/bezier_clipper.dart'; // 贝塞尔曲线剪切效果
 // import 'package:flutter_demoes/accordion_list/accordion_list.dart'; // 手风琴列表
@@ -20,8 +21,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false, // 去除debug模式时右上角的斜杠
       title: 'flutter 小练习',
-      // theme: ThemeData.light(),
-      theme: ThemeData(primarySwatch: Colors.lightBlue),
+      theme: ThemeData.light(),
+      // theme: ThemeData(primarySwatch: Colors.lightBlue),
       // home: BottomNavigation(), // 底部导航栏
       // home: IrregularBottomAppBar(), // 不规则底部工具栏
       // home: Page1(), 自定义路由动画
@@ -33,7 +34,8 @@ class MyApp extends StatelessWidget {
       // home: AccordionList(), // 手风琴列表
       // home: BezierClipper(), // 贝塞尔曲线剪切效果
       // home: SplashScreen(), // 闪屏动画
-      home: RightSlipBack(), // 右滑返回
+      // home: RightSlipBack(), // 右滑返回
+      home: LightTip(), // 轻量级的小提示
     );
   }
 }
