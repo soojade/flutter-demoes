@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demoes/bezier_clipper/bezier_clipper.dart'; // 贝塞尔曲线剪切效果
+import 'package:flutter_demoes/splash_screen/splash_screen.dart'; // 闪屏动画
+// import 'package:flutter_demoes/bezier_clipper/bezier_clipper.dart'; // 贝塞尔曲线剪切效果
 // import 'package:flutter_demoes/accordion_list/accordion_list.dart'; // 手风琴列表
 // import 'package:flutter_demoes/collapse_panel/collapse_panel.dart'; // 可折叠的磁贴
 //import 'package:flutter_demoes/wrap_layout/wrap_layout.dart'; // wrap 流式布局
@@ -29,7 +30,8 @@ class MyApp extends StatelessWidget {
       // home: WrapLayout(), // wrap 流式布局
       // home: CollapsePanel(), // 可折叠的磁贴
       // home: AccordionList(), // 手风琴列表
-      home: BezierClipper(), // 贝塞尔曲线剪切效果
+      // home: BezierClipper(), // 贝塞尔曲线剪切效果
+      home: SplashScreen(), // 闪屏动画
     );
   }
 }
