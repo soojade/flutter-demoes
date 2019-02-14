@@ -39,8 +39,8 @@ class _AccordionListState extends State<AccordionList> {
       appBar: AppBar(
         title: Text('手风琴效果展示'),
       ),
-      // ExpansionPanelList 必须包含在一个可滚动组件中，
-      // 而 SingleChildScrollView 是最简单的滚动组件
+      // ExpansionPanelList 必须包含在一个可滚动控件中，
+      // 而 SingleChildScrollView 是最简单的滚动控件
       body: SingleChildScrollView(
         child: ExpansionPanelList(
           expansionCallback: (index, isExpanded) =>
