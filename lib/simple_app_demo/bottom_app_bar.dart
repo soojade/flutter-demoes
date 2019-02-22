@@ -5,7 +5,6 @@ class MyBottomAppBar extends StatefulWidget {
 }
 
 class _MyBottomAppBarState extends State<MyBottomAppBar> {
-  int _selectedIndex = 1;
   @override
   Widget build(BuildContext context) {
     return BottomAppBar(
