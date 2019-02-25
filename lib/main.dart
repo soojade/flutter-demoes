@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demoes/turn_box/turn_box_demo.dart'; // 自定义带动画的旋转盒子
+import 'package:flutter_demoes/custom_circle_progress_bar/circle_progress_bar_demo.dart'; // 自定义圆形进度条
+// import 'package:flutter_demoes/turn_box/turn_box_demo.dart'; // 自定义带动画的旋转盒子
 // import 'package:flutter_demoes/simple_app_demo/simple_app.dart'; // 一个简单的小应用界面
 // import 'package:flutter_demoes/drag_box/drop_box.dart';  // 拖拽
 // import 'package:flutter_demoes/light_tip/light_tip.dart'; // 轻量级的小提示
@@ -41,7 +42,8 @@ class MyApp extends StatelessWidget {
       // home: LightTip(), // 轻量级的小提示
       // home: DropBox(), // 拖拽
       // home: SimpleApp(), // 一个简单的小应用界面
-      home: TurnBoxDemo(), // 自定义带动画的旋转盒子
+      // home: TurnBoxDemo(), // 自定义带动画的旋转盒子
+      home: CircleProgressBarDemo(), // 自定义圆形进度条
     );
   }
 }
