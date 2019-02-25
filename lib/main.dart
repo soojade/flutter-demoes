@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demoes/simple_app_demo/simple_app.dart'; // 一个简单的小应用界面
+import 'package:flutter_demoes/turn_box/turn_box_demo.dart'; // 自定义带动画的旋转盒子
+// import 'package:flutter_demoes/simple_app_demo/simple_app.dart'; // 一个简单的小应用界面
 // import 'package:flutter_demoes/drag_box/drop_box.dart';  // 拖拽
 // import 'package:flutter_demoes/light_tip/light_tip.dart'; // 轻量级的小提示
 // import 'package:flutter_demoes/cupertino_right_slip_back/right_slip_back.dart'; // 右滑返回
@@ -39,7 +40,8 @@ class MyApp extends StatelessWidget {
       // home: RightSlipBack(), // 右滑返回
       // home: LightTip(), // 轻量级的小提示
       // home: DropBox(), // 拖拽
-      home: SimpleApp(), // 一个简单的小应用界面
+      // home: SimpleApp(), // 一个简单的小应用界面
+      home: TurnBoxDemo(), // 自定义带动画的旋转盒子
     );
   }
 }
